@@ -1,0 +1,15 @@
+#include "stdafx.h"
+#include <iostream>
+#include <cmath>
+#include <conio.h>
+using namespace std;
+void main()
+{
+	int b,h,a;
+	cout<<"Area de un triangulo"<<endl;
+	cout<<"\nBase: ";cin>>b;
+	cout<<"Altura: ";cin>>h;
+	a=(b*h)/2;
+	cout<<endl<<"\nEl area es: "<<a<<endl;
+	getch();
+}
