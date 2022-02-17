@@ -1,0 +1,18 @@
+def maximo(x,y):
+    if x>y:
+        return x
+    else:
+        return y
+    
+    
+def minimo(x,y):
+    if x<y:
+        return x
+    else:
+        return y
+    
+    
+x=int(input("Ingrese un numero:"))
+y=int(input("Ingrese otro numero:"))
+print("El maximo es: ", maximo(x,y))
+print("El minimo es: ", minimo(x,y))
