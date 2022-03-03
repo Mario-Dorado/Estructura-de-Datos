@@ -1,0 +1,10 @@
+def cuenta_regresiva(num):
+    num-=1
+    if num>0:
+        print(num)
+        cuenta_regresiva(num)
+    else:
+        print ("BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM!")
+    print("Fin de la función ", num)
+    
+cuenta_regresiva(num)
