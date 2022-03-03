@@ -1,0 +1,8 @@
+n=[]
+x=int(input("Ingrese un numero: "))
+while x!=0:
+       n.append(x)
+       x=int (input("Ingrese el numero: "))
+
+n.sort()      
+print ("Lista ordenada :" ,n)
