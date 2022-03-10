@@ -1,0 +1,11 @@
+lista=input("Introduce una los números separados por comas: ")
+lista=lista.split(',')
+n=len(lista)
+for i in range(n):
+    lista[i]=int(lista[i])
+suma=0
+for i in lista:
+    suma=suma+i
+promedio=suma/n
+
+print("El promedio es: ", promedio)
