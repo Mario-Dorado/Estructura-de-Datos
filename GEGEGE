@@ -1,0 +1,12 @@
+def generarCuadrados():
+    v=[]
+    e=0
+    j=int(input("Cuantos cuadrados quiere generar?: "))
+    for i in range(j):
+        i=i+1
+        e=i*i
+        v.append(e)
+    print("El vector: ", v)
+
+
+generarCuadrados()
