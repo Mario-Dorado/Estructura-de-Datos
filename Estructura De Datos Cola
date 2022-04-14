@@ -1,0 +1,18 @@
+class EstructuraDeDatos:
+    def _init_(self):
+        self.items=[]
+    def encolar(self,x):
+        self.items.append(x)
+    def desencolar(self):
+        try:
+            return self.items.pop(0)
+        except:
+            raise ValueError("La cola esta vacia")
+    def es_vacia(self):
+        return self.items==[]
+    
+    
+c=EstructuraDeDatos()
+p=3
+c.encolar(p)
+print(c)
