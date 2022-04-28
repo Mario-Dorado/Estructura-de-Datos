@@ -1,0 +1,10 @@
+import os
+
+print("\nCrear un archivo")
+print("==================")
+
+NOMBRE_ARCHIVO='datos.txt'
+
+archivo=open(NOMBRE_ARCHIVO, 'w')
+archivo.write('No soy una persona religiosa \npero cada vez que te veo \npienso que Dios te hizo para mi')
+archivo.close()
