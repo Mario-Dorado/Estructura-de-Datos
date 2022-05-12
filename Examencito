@@ -1,0 +1,44 @@
+primaria=[]
+secundaria=[]
+noensecundaria=[]
+nada=[]
+
+np=int(input("Ingrese la cantidad de estudiantes en primaria:"))
+for i in range(np):
+    ep=input("Ingrese el nombre del estudiante de nivel primario:")
+    primaria.append(ep)
+    
+ns=int(input("\nIngrese la cantidad de estudiantes en secundaria:"))
+for i in range(ns):
+    es=input("Ingrese el nombre del estudiante de nivel primario:")
+    secundaria.append(es)
+    
+print("\nLista de primaria:",primaria)
+print("Lista de secundaria:",secundaria)
+
+norepe=[]
+repe=[]
+
+for element in primaria:
+    if element not in norepe:
+        norepe.append(element)
+    else:
+        repe.append(element)
+        
+for element in secundaria:
+    if element not in norepe:
+        norepe.append(element)
+    else:
+        repe.append(element)
+        
+for element in primaria:
+    if element not in secundaria:
+        noensecundaria.append(element)
+    else:
+        nada.append(element)
+        
+        
+
+print("\nLista sin repeticiones:",norepe)
+print("Lista con repetidos:",repe)
+print("Alumnos de primaria que no se repiten en secundaria:",noensecundaria)
